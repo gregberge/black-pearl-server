@@ -1,0 +1,27 @@
+{
+  "name": "black-pearl-server",
+  "version": "0.0.0",
+  "description": "Metrics collector.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neoziro/black-pearl-server.git"
+  },
+  "keywords": [
+    "metrics",
+    "collector",
+    "statsd"
+  ],
+  "author": "Greg Bergé <berge.greg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neoziro/black-pearl-server/issues"
+  },
+  "dependencies": {
+    "primus": "~1.5.1",
+    "ws": "~0.4.31"
+  }
+}
