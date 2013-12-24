@@ -1,6 +1,6 @@
 {
   "name": "black-pearl",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Metrics collector that push metrics to Elastic Search + Kibana.",
   "main": "index.js",
   "scripts": {
