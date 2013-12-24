@@ -1,11 +1,5 @@
-var http = require('http');
-var Primus = require('primus');
+/**
+ * Expose API.
+ */
 
-var server = http.createServer();
-var primus = new Primus(server);
-
-primus.on('connection', function () {
-  console.log('ok');
-});
-
-server.listen(9400);
+exports.Server = require('./lib/server');
