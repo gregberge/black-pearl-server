@@ -4,9 +4,10 @@ Metrics collector that push metrics to Elastic Search + Kibana.
 
 ## Getting started
 
-#### Run server :
+#### Install and run server :
 
 ```
+npm install -g black-pearl
 black-pearl
 ```
 
@@ -24,7 +25,7 @@ client.push('connectedUsers', { count: 5 });
 ## Install
 
 ```
-npm install black-pearl
+npm install -g black-pearl
 ```
 
 ## Usage
