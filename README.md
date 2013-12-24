@@ -1,6 +1,25 @@
-# black-pearl
+# black-pearl [![Build Status](https://travis-ci.org/neoziro/black-pearl-server.png?branch=master)](https://travis-ci.org/neoziro/black-pearl-server)
 
 Metrics collector that push metrics to Elastic Search + Kibana.
+
+## Getting started
+
+#### Run server :
+
+```
+black-pearl
+```
+
+#### Push metric from client :
+
+```javascript
+var client = require('black-pearl-client').createClient();
+client.push('connectedUsers', { count: 5 });
+```
+
+#### View metrics in Kibana :
+
+<img src="https://f.cloud.github.com/assets/266302/1803923/a9ffa908-6c30-11e3-8309-97b8f7f5e6d1.png" alt="Kibana" width="500">
 
 ## Install
 
